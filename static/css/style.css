@@ -1,0 +1,113 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    color: grey;
+    margin: 0;
+    margin-bottom: 3em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.body-content{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+header > .navbar{
+    height: 53px;
+    background-color: orangered;
+}
+
+.navbar-menu{
+    background-color: #f8f8f8;
+    margin-top: -1.3em;
+}
+
+.navbar-menu .navbar-collapse{
+    padding: 0;
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 2.5em;
+}
+
+a{
+    color: orangered;
+}
+
+.post-list hr{
+    /*border-bottom: 1px solid #ddd;*/
+    margin: 2em auto;
+}
+
+.post{
+    margin: 1em auto 2em;
+}
+
+.post .media{
+    background: #fafafa;
+    /*border: 1px solid #f0f0f0;*/
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 2px rgba(228, 228, 228, 0.6);
+    -moz-box-shadow: 0px 0px 3px 2px rgba(228, 228, 228, 0.6);
+    -webkit-box-shadow: 0px 0px 3px 2px rgba(228, 228, 228, 0.6);
+}
+
+.post .media-body{
+    padding: 1em;
+}
+
+.post h3{
+    margin-top: .5em;
+}
+
+.post-footer{
+    position: absolute;
+    right: 1em;
+    bottom: 0;
+    padding: 2.5em 1em;
+}
+
+.about-me h3{
+    text-align: center;
+    margin: 1em auto;
+}
+
+.about-me img{
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.about-me p{
+    text-align: justify;
+    margin: 2em auto;
+}
+
+footer{
+    height: 2em;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(230, 227, 227);
+    text-align: center;
+}
+
+.list-topics li{
+    border: none;
+    padding-left: 0;
+}
+
+
+.list-topics li span{
+    float: right;
+}
+
+.list-topics li span.badge{
+    background-color:#f88c63;
+}
