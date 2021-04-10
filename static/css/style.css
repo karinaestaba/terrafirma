@@ -39,6 +39,23 @@ a{
     color: orangered;
 }
 
+a:focus,
+a:hover {
+    text-decoration: underline;
+    opacity: .7;
+}
+
+a.navbar-brand:focus,
+a.navbar-brand:hover{
+    opacity: .8;
+    color: white;
+}
+
+a.link-action:focus,
+a.link-action:hover{
+    color: orangered;
+}
+
 .post-list hr{
     /*border-bottom: 1px solid #ddd;*/
     margin: 2em auto;
@@ -55,10 +72,19 @@ a{
     box-shadow: 0px 0px 3px 2px rgba(228, 228, 228, 0.6);
     -moz-box-shadow: 0px 0px 3px 2px rgba(228, 228, 228, 0.6);
     -webkit-box-shadow: 0px 0px 3px 2px rgba(228, 228, 228, 0.6);
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex
 }
 
 .post .media-body{
     padding: 1em;
+}
+
+.post .media-left{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex
 }
 
 .post h3{
@@ -66,10 +92,11 @@ a{
 }
 
 .post-footer{
-    position: absolute;
-    right: 1em;
     bottom: 0;
-    padding: 2.5em 1em;
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    text-align: right;
 }
 
 .about-me h3{
@@ -103,11 +130,44 @@ footer{
     padding-left: 0;
 }
 
-
 .list-topics li span{
     float: right;
 }
 
 .list-topics li span.badge{
     background-color:#f88c63;
+    padding-top: .3rem;
+    padding-bottom: .5rem;
+}
+
+.list-inline > li{
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+    .post .media{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column
+    }
+
+    .post .media-body{
+        width: 100%;
+    }
+
+    .post .media-left{
+        padding: 0;
+    }
+
+    .post .media-left img.media-object{
+        width: 100%;
+        max-height: 300px;
+    }
+
+    .post-footer{
+        position: relative;
+        padding-bottom: 0;
+        padding-top: 1rem;
+    }
 }
