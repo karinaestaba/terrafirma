@@ -1,15 +1,21 @@
-# Terrafirma
+![Screenshot](./screenshot.png)
 
+<hr>
+
+# Project 
 Lab. Redesign of an old non-responsive website.
 
-## Technologies
+## Links
 
-HTML + Bootstrap
+- Live Site URL: [Demo](https://karina-estaba.gitlab.io/terrafirma)
 
-## Demo 🌐
+## Built with
 
-https://karina-estaba.gitlab.io/terrafirma
+- Semantic HTML5 markup
+- Mobile-first workflow
+- Bootstrap
 
-### Screenshot
+## Author
 
-![Screenshot](./screenshot.png)
+- Website: [Karina Estaba](https://karina-estaba.gitlab.io/directorio-repositorios/) 🔗
+
