@@ -12,7 +12,7 @@ body{
 
 .body-content{
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 6em;
 }
 
 header > .navbar{
@@ -116,13 +116,14 @@ a.link-action:hover{
 }
 
 footer{
-    height: 2em;
+    min-height: 2em;
     position: absolute;
     width: 100%;
     bottom: 0;
     left: 0;
     background-color: rgb(230, 227, 227);
     text-align: center;
+    padding: 2rem
 }
 
 .list-topics li{
@@ -142,6 +143,24 @@ footer{
 
 .list-inline > li{
     margin-top: 1rem;
+}
+
+.credits{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.credits a{
+    text-decoration: none;
+    white-space: nowrap;    
+    color: #4b4b4b;;
+    transition: all 1s ease
+}
+
+.credits a:hover{
+    color: #363636;
+    opacity: .8;
 }
 
 @media screen and (max-width: 991px) {
